@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutPhotos from './BannerImg/.trashed-1683211859-ei_1680619773740-removebg-preview.png';
+import AboutPhotos from './BannerImg/online.png';
 import './About.css';
 
 function About() {
