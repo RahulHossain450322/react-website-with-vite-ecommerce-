@@ -1,0 +1,37 @@
+.banner {
+  background-color: none;
+}
+.discount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: yellow;
+}
+.online {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.banner-content {
+  text-align: end;
+}
+.banner-card {
+  justify-content: end;
+}
+.justForYou {
+  font-size: 5rem !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.newArrivals {
+  font-size: 2rem;
+  font-weight: 200;
+}
+@media screen and (max-width: 1000px) {
+  .banner-des {
+    flex-direction: column;
+  }
+  .banner-content {
+    text-align: left;
+  }
+  .banner-card {
+    justify-content: start;
+  }
+}

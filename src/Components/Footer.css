@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Righteous&display=swap");
+
+.footer {
+  font-family: "Righteous", cursive;
+}
+.footer-content {
+  display: flex;
+  justify-content: end;
+}
+.footer-icon {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-icon {
+    margin-top: 20px;
+  }
+}

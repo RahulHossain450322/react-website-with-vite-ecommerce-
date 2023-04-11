@@ -1,0 +1,15 @@
+.form {
+  max-width: 300px;
+  width: 100%;
+  margin: 0px auto;
+}
+.input {
+  width: 300px !important;
+}
+.sms {
+  font-size: 2rem;
+}
+.form-label {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

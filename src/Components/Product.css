@@ -1,0 +1,17 @@
+.all-product {
+  display: flex;
+  align-items: center;
+}
+.products-title {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  text-align: center !important;
+}
+.icon {
+  color: green !important;
+  font-size: 5rem !important;
+  margin: auto;
+}
