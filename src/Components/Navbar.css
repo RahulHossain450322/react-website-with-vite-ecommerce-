@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Fasthand&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Fasthand&family=Righteous&display=swap");
 
+.header {
+  background-color: red !important;
+  z-index: 1 !important;
+}
 .logo {
   font-size: 5rem;
 }
@@ -14,6 +18,25 @@
   font-size: 12px !important;
   font-family: "Acme", sans-serif;
   font-weight: bolder;
+  transition: color 1s;
+}
+.link:hover {
+  color: teal !important;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: teal !important;
+}
+.link:active {
+  color: red !important;
+  font-weight: bold;
+  text-decoration: underline !important;
+  text-decoration-color: red !important;
+}
+.link:focus {
+  color: red !important;
+  font-weight: bold;
+  text-decoration: underline !important;
+  text-decoration-color: red !important;
 }
 .store {
   font-family: "Fasthand", cursive;
@@ -50,6 +73,7 @@
     top: 20px;
   }
   .collapse {
-    text-align: center;
+    text-align: left;
+    padding-left: 10px !important;
   }
 }

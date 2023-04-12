@@ -10,7 +10,7 @@ function Banner() {
         <div className="banner-image">
           <img className="img-fluid" src={BannerPhoto} alt="Banner" />
         </div>
-        <div className="banner-content p-3 me-3">
+        <div className="banner-content ms-auto p-3 me-3">
           <div className="banner-title">
             <span className="newArrivals">NEW ARRIVALS</span>
             <h1 className="justForYou">JUST FOR YOU</h1>

@@ -9,7 +9,48 @@
 .sms {
   font-size: 2rem;
 }
-.form-label {
-  font-weight: bold;
+.subscribeBtn {
+  border-radius: 0 4px 4px 0 !important;
+}
+.subscribeInput {
+  border-radius: 4px 0 0 4px !important;
+}
+@media screen and (max-width: 576px) {
+  .directionChange {
+    flex-direction: column;
+  }
+}
+
+.form-div {
+  position: relative;
+}
+.nameLabel {
+  position: absolute;
+  left: 10px;
+  top: 6px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: top 0.3s, font-size 0.3s;
+}
+.emailLabel {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: top 0.3s, font-size 0.3s;
+}
+.msgLabel {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: top 0.3s, font-size 0.3s;
+}
+.far {
+  top: -10px;
+  background-color: white !important;
+  padding: 0 5px;
+  font-size: 12px !important;
+}
+.error {
+  border: 3px solid red !important;
 }

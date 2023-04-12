@@ -19,7 +19,7 @@ function About() {
               Bone laborigis niaj se staton prenis alian. Boaton cxar la unu volonte junulon, almenaux iris li de estos. Vivo mi bestoj da mi intencas da kuglon. Certigxis kiam .Bone laborigis niaj se staton prenis alian. Boaton cxar la unu volonte junulon, almenaux iris li de estos. Vivo mi bestoj da mi intencas da kuglon. Certigxis kiam .Bone laborigis niaj se staton prenis alian. Boaton cxar la unu volonte junulon, almenaux iris li de estos. Vivo mi bestoj da mi intencas da kuglon. Certigxis kiam .Bone laborigis niaj se staton prenis alian. Boaton cxar la unu volonte junulon, almenaux iris li de estos. Vivo mi bestoj da mi intencas da kuglon. Certigxis kiam .Bone laborigis niaj se staton prenis alian. Boaton cxar la unu volonte junulon, almenaux iris li de estos. Vivo mi bestoj da mi intencas da kuglon. Certigxis kiam .
             </p>
           </div>
-          <div className="right-content bg-primary">
+          <div className="right-content">
             <img className="img" src={AboutPhotos} alt="About" />
           </div>
         </div>

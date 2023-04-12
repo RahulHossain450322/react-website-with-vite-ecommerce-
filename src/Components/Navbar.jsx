@@ -11,6 +11,7 @@ function Navbar() {
     navbar.classList.toggle('show');
     setToggle(!toggle);
   };
+
   return (
     <header className="header bg-light position-sticky top-0">
       <nav className="container navItem navbar navbar-expand-lg">
